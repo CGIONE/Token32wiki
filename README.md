@@ -1,6 +1,9 @@
 # Token32wiki
 Open docs for token32 private repo
 
+
+![alt text](https://raw.githubusercontent.com/CGIONE/Token32wiki/refs/heads/main/value32ito1.jpg)
+
 TOKEN32
 Tokenized digital asset, aimed to compound value over time
 TOKEN32 ITO PRINC. by DVK aka cgi1
