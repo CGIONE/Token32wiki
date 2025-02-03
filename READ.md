@@ -1,6 +1,6 @@
 
 
-![alt text](https://raw.githubusercontent.com/CGIONE/Token32wiki/refs/heads/main/v110.jpg)
+![alt text](https://raw.githubusercontent.com/CGIONE/Token32wiki/refs/heads/main/v109.jpg)
 
 
 VALUE32 ITO PRINC.
@@ -22,27 +22,28 @@ OS derivatived to BIOS alternative
 language lib dep -> language lib indep.
 8. As is, no refund.
 
+// V110
+// clean add and remove funcs
 
 // FUNCS
 
-// make add
-
-// make token (and todo: check with registry)
-val32_t v32make_token()
-
 // make reg arr entry based on inc
-entry32_t v32put_entry_inc(u32 inc, char *handle, val32_t token)
+b32 v32put_entry_inc(u32 inc, char *handle)
 
 // make reg arr last entry
-entry32_t v32put_entry_last(char *handle, val32_t token)
+b32 v32put_entry_last(char *handle)
 
 // remove
-b32 v32remove_entry(u32 inc)
+b32 v32remove_entry_inc(u32 inc)
 
-// print
+// 
+b32 v32remove_entry_last()
 
 // print reg
 void v32print_reg()
 
-// initial emission based on alist
+//
+void debug_token32()
+
+//
 void v32emit_token()
